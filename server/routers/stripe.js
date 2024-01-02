@@ -25,8 +25,8 @@ router.post("/create-checkout-session", async (req, res) => {
   const session = await stripe.checkout.sessions.create({
     line_items,
     mode: "payment",
-    success_url: `http://localhost:3000/checkout-succes`,
-    cancel_url: `http://localhost:3000/cart`,
+    success_url: `https://jems-shop.netlify.app/checkout-succes`,
+    cancel_url: `https://jems-shop.netlify.app/cart`,
   });
   res.json({ url: session.url });
 });

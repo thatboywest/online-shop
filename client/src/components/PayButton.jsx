@@ -9,7 +9,7 @@ function PayButton({ cartItems }) {
 
     try {
       const response = await axios.post(
-        `http://localhost:3001/api/stripe/create-checkout-session`,
+        `https://jemsshop.onrender.com/api/stripe/create-checkout-session`,
         {
           cartItems,
         }

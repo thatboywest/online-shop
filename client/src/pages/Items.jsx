@@ -14,7 +14,7 @@ function ProductContainer() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/products');
+      const response = await fetch('https://jemsshop.onrender.com/api/products');
       const data = await response.json();
 
       if (data && data.length > 0) {

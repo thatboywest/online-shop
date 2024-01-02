@@ -31,7 +31,7 @@ const ProductForm = () => {
 
   const submitProduct = async (formData) => {
     try {
-      const response = await axios.post('http://localhost:3001/api/products', {
+      const response = await axios.post('https://jemsshop.onrender.com/api/products', {
         name,
         brand,
         desc,
