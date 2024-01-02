@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .left h1 {
+    margin: 0;
+  }
+  
+  .right ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .right p {
+    margin: 0;
+    color: white;
+  }
+  
+  .right li {
+    cursor: pointer;
+  }
+  
+  .right li:hover {
+    color: #ffd700; 
+  }
+ nav a{
+    color: white;
+    text-decoration: none;
+}  
