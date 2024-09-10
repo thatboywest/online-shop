@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 3001;
 app.use(cors({ origin: '*' }));
 
 mongoose
-  .connect('mongodb+srv://jems:jems1000@jems0.6jlvnu9.mongodb.net/?retryWrites=true&w=majority', {
+  .connect('', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
